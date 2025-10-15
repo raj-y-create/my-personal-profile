@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashrajsinh Raj - Electrical & EV Engineer</title>
+    <!-- START: SEO Meta Tags for Google Indexing -->
+    <meta name="description" content="Yashrajsinh Raj's professional profile: Junior Electrical Engineer specializing in EV infrastructure, robotics, V2G schemes, and embedded control systems.">
+    <meta name="keywords" content="Electrical Engineer, EV, Robotics, VCU, RTK-GPS, V2G, MATLAB, CAN Protocol, Li-NMC, Li-LFP">
+    <meta name="author" content="Yashrajsinh Raj">
+    <!-- END: SEO Meta Tags -->
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind for the Inter font and custom colors -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class', // Enable dark mode utility
+            theme: {
+                extend: {
+                    colors: {
+                        'background-dark': '#0F172A', // Slate-900 (Deep Blue/Black)
+                        'primary': '#3B82F6', // Blue-500 (Electric Blue)
+                        'secondary-text': '#9CA3AF', // Gray-400
+                        'card-dark': '#1F2937', // Gray-800
+                        'accent': '#10B981', // Emerald-500 for success/analysis
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styling for the profile container border glow */
+        .profile-container {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(59, 130, 246, 0.5); /* Primary color glow */
+        }
+        .skill-badge {
+            transition: transform 0.2s;
+        }
+        .skill-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 5px rgba(59, 130, 246, 0.4);
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex items-center justify-center p-4 bg-background-dark dark">
+
+    <!-- Profile Container -->
+    <div class="w-full max-w-4xl bg-white dark:bg-card-dark rounded-xl profile-container overflow-hidden">
+
+        <!-- Header / Banner Section -->
+        <div class="relative h-36 bg-primary">
+            <!-- Background Image/Pattern Placeholder for "Profile Background" aesthetic look -->
+            <div class="absolute inset-0 bg-repeat opacity-20" style="background-image: url('data:image/svg+xml;utf8,<svg viewBox=\'0 0 100 100\' xmlns=\'http://www.w3.org/2000/svg\'><line x1=\'0\' y1=\'0\' x2=\'100\' y2=\'100\' stroke=\'white\' stroke-width=\'1\' opacity=\'0.1\'/><line x1=\'0\' y1=\'100\' x2=\'100\' y2=\'0\' stroke=\'white\' stroke-width=\'1\' opacity=\'0.1\'/></svg>');"></div>
+            
+            <!-- Profile Picture Placeholder -->
+            <div class="absolute -bottom-16 left-1/2 transform -translate-x-1/2 z-10">
+                <div class="h-32 w-32 rounded-full border-4 border-white dark:border-card-dark bg-gray-500 overflow-hidden shadow-xl">
+                    <!-- Placeholder image for profile picture -->
+                    <img src="https://placehold.co/128x128/3B82F6/ffffff?text=Y+R"
+                         alt="Profile Photo of Yashrajsinh Raj"
+                         class="w-full h-full object-cover">
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Section -->
+        <main class="pt-20 pb-8 px-6 md:px-12 text-center text-secondary-text">
+            
+            <!-- Intro & Bio -->
+            <h1 class="text-4xl font-extrabold text-gray-100 mt-4">YASHRAJSINH RAJ</h1>
+            <p class="text-xl text-primary font-medium mb-4"> Electrical Engineer | EV & Robotics Specialist</p>
+
+            <div class="max-w-2xl mx-auto mb-8">
+                <p class="text-gray-300 leading-relaxed text-left">
+                    I am a hardworking and goal-oriented individual passionate about building a bright future through continuous learning and dedication. With strong coordination skills and a collaborative mindset, I thrive in teamwork and embrace challenges that drive personal and professional growth. My expertise lies in EV infrastructure, battery technology, and embedded systems for automation.
+                </p>
+            </div>
+            
+            <!-- Contact Buttons -->
+            <div class="flex flex-col sm:flex-row justify-center gap-4 mb-10">
+                <a href="mailto:yashrajs2002@gmail.com" class="px-6 py-3 bg-primary text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition duration-300 transform hover:scale-[1.02]">
+                    Email Me
+                </a>
+                <a href="https://www.linkedin.com/in/raj-yashrajsinh-4151611b6" target="_blank" class="px-6 py-3 bg-gray-600 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 transition duration-300 transform hover:scale-[1.02]">
+                    View LinkedIn
+                </a>
+            </div>
+
+            <!-- --- Digital Competencies / Skills Section --- -->
+            <section id="skills" class="mb-12">
+                <h2 class="text-2xl font-bold text-gray-100 mb-6 border-b border-gray-700 pb-2">Digital & Technical Competencies</h2>
+                <div class="flex flex-wrap justify-center gap-3">
+                    <!-- Skill Badges -->
+                    <span class="skill-badge bg-blue-700 text-white ring-blue-500">MATLAB</span>
+                    <span class="skill-badge bg-green-700 text-white ring-green-500">ARDUINO</span>
+                    <span class="skill-badge bg-red-700 text-white ring-red-500">PROTEUS</span>
+                    <span class="skill-badge bg-yellow-700 text-white ring-yellow-500">Python / PANDAS</span>
+                    <span class="skill-badge bg-purple-700 text-white ring-purple-500">Ki-CAD / CCS</span>
+                    <span class="skill-badge bg-indigo-700 text-white ring-indigo-500">VCU / RTK-GPS Integration</span>
+                </div>
+            </section>
+
+            <!-- --- Experience Section --- -->
+            <section id="experience" class="mb-12">
+                <h2 class="text-2xl font-bold text-gray-100 mb-6 border-b border-gray-700 pb-2">Work Experience & Internships</h2>
+                <div class="space-y-6 text-left">
+                    <!-- Experience Item 1: JUNIOR ELECTRICAL ENEGINEER -->
+                    <div class="exp-card bg-card-dark p-6 rounded-xl shadow-lg border-l-4 border-primary" data-entry-id="exp-1">
+                        <h3 class="text-xl font-semibold text-primary">Junior Electrical Engineer</h3>
+                        <p class="text-gray-400 italic mb-1">GREENSWIP TECHNOLOGY, Ahemdabad, India</p>
+                        <p class="text-sm text-gray-500 mb-3">May 2024 – Dec 2024</p>
+                        <ul class="list-disc list-inside text-gray-300 space-y-1 ml-4" id="exp-1-details">
+                            <li>Optimized traction motor selection, high-power wiring, and integrated advanced control systems for autonomous agricultural rovers.</li>
+                            <li>Implemented **VCU integration**, sensor interfacing, and **RTK-GPS** for real-time navigation, enhancing system efficiency and reliability.</li>
+                        </ul>
+                        <button onclick="analyzeEntry('exp-1')" class="mt-4 px-4 py-2 bg-accent text-white font-semibold rounded-lg shadow-md hover:bg-emerald-600 transition duration-300 text-sm">
+                            ✨ Analyze Entry
+                        </button>
+                        <div id="exp-1-result" class="mt-4 pt-4 border-t border-gray-700 hidden">
+                            <p class="text-gray-400 text-sm mb-2">Analyzing...</p>
+                        </div>
+                    </div>
+                    <!-- Experience Item 2: SUPERVISOR -->
+                    <div class="exp-card bg-card-dark p-6 rounded-xl shadow-lg border-l-4 border-gray-500" data-entry-id="exp-2">
+                        <h3 class="text-xl font-semibold text-gray-100">Supervisor</h3>
+                        <p class="text-gray-400 italic mb-1">SHREENATH ELECTRIC CORPORATION, Vadodara, India</p>
+                        <p class="text-sm text-gray-500 mb-3">Jan 2024 – Apr 2024</p>
+                        <ul class="list-disc list-inside text-gray-300 space-y-1 ml-4" id="exp-2-details">
+                            <li>Supervised replacement of ACSR cables with **ABC (Aerial bunched Cables)**, ensuring safety, efficient execution, and minimal disruption.</li>
+                            <li>Managed technical challenges, coordinated teams, and optimized urban electrical infrastructure.</li>
+                        </ul>
+                        <button onclick="analyzeEntry('exp-2')" class="mt-4 px-4 py-2 bg-accent text-white font-semibold rounded-lg shadow-md hover:bg-emerald-600 transition duration-300 text-sm">
+                            ✨ Analyze Entry
+                        </button>
+                        <div id="exp-2-result" class="mt-4 pt-4 border-t border-gray-700 hidden">
+                            <p class="text-gray-400 text-sm mb-2">Analyzing...</p>
+                        </div>
+                    </div>
+                    <!-- Internship Item 3: TANGIBLE SYNTHESIS -->
+                    <div class="exp-card bg-card-dark p-6 rounded-xl shadow-lg border-l-4 border-gray-500" data-entry-id="exp-3">
+                        <h3 class="text-xl font-semibold text-gray-100">Internship (Battery Protocols)</h3>
+                        <p class="text-gray-400 italic mb-1">TANGIBLE SYNTHESIS, Ahemdabad, India</p>
+                        <p class="text-sm text-gray-500 mb-3">May 2023 – Jul 2023</p>
+                        <ul class="list-disc list-inside text-gray-300 space-y-1 ml-4" id="exp-3-details">
+                            <li>Optimized **Li-NMC and Li-LFP battery charging protocols** for IEC and AIS standards compliance.</li>
+                            <li>Focused on battery testing, performance analysis, and efficiency enhancement.</li>
+                        </ul>
+                        <button onclick="analyzeEntry('exp-3')" class="mt-4 px-4 py-2 bg-accent text-white font-semibold rounded-lg shadow-md hover:bg-emerald-600 transition duration-300 text-sm">
+                            ✨ Analyze Entry
+                        </button>
+                        <div id="exp-3-result" class="mt-4 pt-4 border-t border-gray-700 hidden">
+                            <p class="text-gray-400 text-sm mb-2">Analyzing...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- --- Publications Section --- -->
+            <section id="publications" class="mb-12">
+                <h2 class="text-2xl font-bold text-gray-100 mb-6 border-b border-gray-700 pb-2">Academic Publications</h2>
+                <div class="space-y-6 text-left">
+                    <!-- Publication 1 -->
+                    <div class="exp-card bg-card-dark p-6 rounded-xl shadow-lg border-l-4 border-primary" data-entry-id="pub-1">
+                        <h3 class="text-xl font-semibold text-primary">Modeling and Analysis of a V2G Scheme: A Concept in Smart Grid</h3>
+                        <p class="text-gray-400 italic mb-2">Sensors 2023, 23, 6852 (Published: August 1, 2023)</p>
+                        <p class="text-gray-300 leading-relaxed mb-3" id="pub-1-details">
+                            Predicted grid behavior under conditions like solar park cloud cover and demand surges. Simulated the **Vehicle to Grid (V2G)** project in MATLAB to understand and explain the model's future in EV infrastructure.
+                        </p>
+                        <a href="https://www.mdpi.com/1424-8220/23/15/6852" target="_blank" class="text-primary hover:text-blue-400 font-semibold text-sm inline-block mr-4">
+                            <span class="inline-block mr-1">Read Paper &rarr;</span>
+                        </a>
+                        <button onclick="analyzeEntry('pub-1')" class="px-4 py-2 bg-accent text-white font-semibold rounded-lg shadow-md hover:bg-emerald-600 transition duration-300 text-sm">
+                            ✨ Analyze Entry
+                        </button>
+                        <div id="pub-1-result" class="mt-4 pt-4 border-t border-gray-700 hidden">
+                            <p class="text-gray-400 text-sm mb-2">Analyzing...</p>
+                        </div>
+                    </div>
+                    <!-- Publication 2 -->
+                    <div class="exp-card bg-card-dark p-6 rounded-xl shadow-lg border-l-4 border-primary" data-entry-id="pub-2">
+                        <h3 class="text-xl font-semibold text-primary">Implementation of MCP2515 CAN Controller for Monitoring Battery Parameters with SPI Interface</h3>
+                        <p class="text-gray-400 italic mb-2">ICMME-2023-0016 (Published: October 14, 2023)</p>
+                        <p class="text-gray-300 leading-relaxed" id="pub-2-details">
+                            Detailed the **CAN communication protocol** using the MCP2515 module with Arduino Uno. Utilized a battery load bank to measure and save battery drain data via the CAN protocol.
+                        </p>
+                        <button onclick="analyzeEntry('pub-2')" class="mt-4 px-4 py-2 bg-accent text-white font-semibold rounded-lg shadow-md hover:bg-emerald-600 transition duration-300 text-sm">
+                            ✨ Analyze Entry
+                        </button>
+                        <div id="pub-2-result" class="mt-4 pt-4 border-t border-gray-700 hidden">
+                            <p class="text-gray-400 text-sm mb-2">Analyzing...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer / Contact Section -->
+        <footer id="contact" class="bg-gray-900 p-6 md:p-8 rounded-b-xl border-t border-gray-700">
+            <h3 class="text-xl font-bold text-gray-100 mb-4 text-center">Contact & Languages</h3>
+            <div class="flex flex-wrap justify-center space-x-6 text-gray-400">
+                <!-- Contact Details -->
+                <div class="flex items-center gap-1 my-1">
+                    <span class="text-primary font-bold">Email:</span> yashrajs2002@gmail.com
+                </div>
+                <div class="flex items-center gap-1 my-1">
+                    <span class="text-primary font-bold">Phone:</span> (+91) 9328837075
+                </div>
+                <!-- Languages -->
+                <div class="flex items-center gap-1 my-1">
+                    <span class="text-primary font-bold">Languages:</span> Gujarati (M), English, Hindi
+                </div>
+            </div>
+            
+            <div class="flex justify-center space-x-6 text-gray-500 mt-6">
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/raj-yashrajsinh-4151611b6" target="_blank" class="hover:text-primary transition duration-300" aria-label="LinkedIn">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.518-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+                <!-- Email Icon -->
+                <a href="mailto:yashrajs2002@gmail.com" class="hover:text-primary transition duration-300" aria-label="Email">
+                    <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm6.623 7.929l-6.623 5.659v-13.619l6.623 7.96zm-4.623-4.291l4.017 3.718 4.02-3.718h-8.037zm8.423 3.328l-.94 1.144-4.481-4.14-5.222 5.074v3.136l12-10.364zm1.577-.737l3.687-3.385h-2.146l-1.541 1.503zm1.258 1.625l-1.258-1.298 6.059-4.832v11.14l-4.801-5.01zm-1.838-5.304l-.004-.002.004.002z"/></svg>
+                </a>
+            </div>
+            
+            <p class="text-xs text-gray-500 mt-6 text-center">
+                &copy; 2024 Yashrajsinh Raj. Built for a technical audience.
+            </p>
+        </footer>
+    </div>
+
+    <!-- Reusable Skill Badge Style Script -->
+    <script>
+        document.querySelectorAll('.skill-badge').forEach(badge => {
+            badge.classList.add('inline-flex', 'items-center', 'px-3', 'py-1.5', 'rounded-full', 'text-sm', 'font-medium', 'ring-1', 'ring-inset', 'ring-opacity-50', 'shadow-md');
+        });
+    </script>
+
+    <!-- Gemini API Integration Script -->
+    <script>
+        const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent";
+        const API_KEY = ""; // Canvas will provide this if empty
+
+        /**
+         * Retries a fetch request with exponential backoff.
+         * @param {string} url The API URL.
+         * @param {object} options The fetch options (method, headers, body).
+         * @param {number} retries The number of retries left.
+         * @param {number} delay The current delay in milliseconds.
+         * @returns {Promise<Response>} The successful response object.
+         */
+        async function fetchWithBackoff(url, options, retries = 5, delay = 1000) {
+            try {
+                const response = await fetch(url + `?key=${API_KEY}`, options);
+                if (response.status === 429 && retries > 0) {
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                    return fetchWithBackoff(url, options, retries - 1, delay * 2);
+                }
+                if (!response.ok) {
+                    throw new Error(`API call failed with status: ${response.status}`);
+                }
+                return response;
+            } catch (error) {
+                if (retries > 0) {
+                    await new Promise(resolve => setTimeout(resolve, delay));
+                    return fetchWithBackoff(url, options, retries - 1, delay * 2);
+                }
+                throw error;
+            }
+        }
+
+        /**
+         * Analyzes an experience or publication entry using the Gemini API
+         * to generate a summary and key tags.
+         * @param {string} entryId - The ID of the entry (e.g., 'exp-1', 'pub-2').
+         */
+        async function analyzeEntry(entryId) {
+            const entryElement = document.querySelector(`[data-entry-id="${entryId}"]`);
+            const detailsElement = document.getElementById(`${entryId}-details`);
+            const resultElement = document.getElementById(`${entryId}-result`);
+            
+            if (!entryElement || !detailsElement || !resultElement) {
+                console.error(`Elements for entry ID ${entryId} not found.`);
+                return;
+            }
+            
+            const entryContent = detailsElement.innerText;
+            const entryTitle = entryElement.querySelector('h3').innerText;
+            const prompt = `You are a technical document analyzer. For the following profile entry titled "${entryTitle}" with content: "${entryContent}", generate a concise, professional, single-paragraph summary (max 3 sentences) focusing on the technical impact, and a list of up to 5 key technical tags (keywords).`;
+
+            resultElement.classList.remove('hidden');
+            resultElement.innerHTML = `<div class="flex items-center justify-center text-primary"><svg class="animate-spin -ml-1 mr-3 h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>Analyzing details...</div>`;
+
+
+            const payload = {
+                contents: [{ parts: [{ text: prompt }] }],
+                generationConfig: {
+                    responseMimeType: "application/json",
+                    responseSchema: {
+                        type: "OBJECT",
+                        properties: {
+                            "summary": { "type": "STRING", "description": "Concise summary of the technical content." },
+                            "keywords": {
+                                "type": "ARRAY",
+                                "items": { "type": "STRING" },
+                                "description": "Up to 5 key technical tags/keywords."
+                            }
+                        },
+                        "propertyOrdering": ["summary", "keywords"]
+                    }
+                }
+            };
+
+            const options = {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            };
+
+            try {
+                const response = await fetchWithBackoff(API_URL, options);
+                const result = await response.json();
+                
+                const jsonText = result.candidates?.[0]?.content?.parts?.[0]?.text;
+                if (!jsonText) {
+                    throw new Error("Invalid response format from API.");
+                }
+
+                const parsedData = JSON.parse(jsonText);
+                renderAnalysisResult(resultElement, parsedData.summary, parsedData.keywords);
+
+            } catch (error) {
+                console.error("Gemini API Error:", error);
+                resultElement.innerHTML = `<p class="text-red-500 text-sm">Error analyzing content. Try again later.</p>`;
+            }
+        }
+
+        /**
+         * Renders the analysis results in the designated element.
+         * @param {HTMLElement} element - The result display container.
+         * @param {string} summary - The generated summary.
+         * @param {string[]} keywords - The generated keywords.
+         */
+        function renderAnalysisResult(element, summary, keywords) {
+            let keywordHtml = keywords.map(keyword => 
+                `<span class="inline-flex items-center px-3 py-0.5 rounded-full text-xs font-medium bg-accent/20 text-accent ring-1 ring-accent/50 mr-2 mb-2">
+                    ${keyword}
+                </span>`
+            ).join('');
+
+            element.innerHTML = `
+                <div class="text-left">
+                    <p class="text-sm font-semibold text-gray-200 mb-1">Key Summary:</p>
+                    <p class="text-gray-300 mb-4">${summary}</p>
+                    <p class="text-sm font-semibold text-gray-200 mb-1">Technical Tags:</p>
+                    <div class="flex flex-wrap">${keywordHtml}</div>
+                </div>
+            `;
+        }
+
+        // Initialize Firebase and Auth (Required for all web apps)
+        const appId = typeof __app_id !== 'undefined' ? __app_id : 'default-app-id';
+        const firebaseConfig = typeof __firebase_config !== 'undefined' ? JSON.parse(__firebase_config) : {};
+
+        // Since this is a static profile page and we don't need persistent data storage
+        // or user-specific data, we can skip the full Firebase/Firestore setup. 
+        // We only use the API integration which doesn't require Firestore.
+
+    </script>
+
+</body>
+</html>
